@@ -1,0 +1,5 @@
+apache-airflow==3.4.0
+apache-airflow-providers-standard==1.21.0
+pandas==3.1.0
+boto3==1.43.117
+psycopg==3.3.6

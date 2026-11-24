@@ -1,0 +1,27 @@
+# Python environments
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+
+# Airflow local environment, database, logs and configuration
+airflow/
+logs/
+airflow.cfg
+airflow.db/
+
+# Local datasets
+data/*.csv
+
+# Secrets and credentials
+.env
+.env.*
+*.pem
+*.key
+credentials
+secrets/
+
+# Logs and temporary files
+*.log
+*.tmp
+.DS_Store
